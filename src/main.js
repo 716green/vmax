@@ -18,8 +18,8 @@ const routes = [
       component: HomeComponent
   },
   {
-      name: 'posts',
-      path: '/posts',
+      name: 'index',
+      path: '/index',
       component: IndexComponent
   },
   {
@@ -34,12 +34,6 @@ const router = new VueRouter({ mode: 'history', routes: routes});
 new Vue(Vue.util.extend({ router }, App)).$mount('#app');
 
 /*
-import Vue from 'vue'
-import App from './App.vue'
-import bootstrap from 'bootstrap'
-
-Vue.config.productionTip = false
-
 new Vue({
   render: h => h(App),
 }).$mount('#app')

@@ -25,6 +25,10 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 # vmax
 
 ```
+[Start Server]
+npm run serve
+npm start dev nodemon server.js
+```
 npm install axios vue-router vue-axios --save
 npm install bootstrap --save
 
@@ -38,6 +42,3 @@ server.js
 DB.js
 post.model.js
 post.route.js
-
-[Start Server]
-npm start dev nodemon server.js
