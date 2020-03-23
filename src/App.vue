@@ -6,9 +6,6 @@
           <router-link to="/" class="nav-link">Home</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/create" class="nav-link">Create Post</router-link>
-        </li>
-        <li class="nav-item">
           <router-link to="/posts" class="nav-link">Posts</router-link>
         </li>
       </ul>
@@ -29,19 +26,7 @@
 </style>
 
 <script>
-
     export default{
       name: 'app',
     }
 </script>
-
-<!--HomeComponent />
-<script>
-  components: {
-    HomeComponent
-  }
-// import HomeComponent from './components/HomeComponent.vue'
-export default {
-}
-</script>
-  -->

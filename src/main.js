@@ -8,7 +8,6 @@ Vue.use(VueRouter);
 Vue.config.productionTip = false;
 
 import HomeComponent from './components/HomeComponent.vue';
-import CreateComponent from './components/CreateComponent.vue';
 import IndexComponent from './components/IndexComponent.vue';
 import EditComponent from './components/EditComponent.vue';
 
@@ -17,11 +16,6 @@ const routes = [
       name: 'home',
       path: '/',
       component: HomeComponent
-  },
-  {
-      name: 'create',
-      path: '/create',
-      component: CreateComponent
   },
   {
       name: 'posts',
