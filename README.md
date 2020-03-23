@@ -1,4 +1,9 @@
 # vmax
+```
+[Start Server]
+npm run serve
+npm start dev nodemon server.js
+```
 
 ## Project setup
 ```
@@ -24,10 +29,6 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 # vmax
 
-```
-[Start Server]
-npm run serve
-npm start dev nodemon server.js
 ```
 npm install axios vue-router vue-axios --save
 npm install bootstrap --save
